@@ -101,12 +101,8 @@
 
 % Comandos personalizados
 %===================================================================================================
+\input{comandos}
 
-% Para realizar las citas de forma corta
-\newcommand{\customcite}[1]{\emph{"\ref{#1}. \nameref{#1}"}}
-
-% Para entrecomillar un texto
-\newcommand{\entrecomillado}[1]{\emph{``#1''}}
 
 % Metadatos del documento
 %===================================================================================================
@@ -146,6 +142,9 @@
 \addtocontents{toc}{\setcounter{tocdepth}{3}}
 
 \pagebreak
+
+% Contents of the document
+\input{sections/section01}
 
 \pagebreak
 
